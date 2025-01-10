@@ -24,7 +24,7 @@ const Navbar = () => {
               <a href="#" className="flex items-center">
                 <img
                   src="https://www.skedgroup.in/assets/theme1/sked-logo-9cf87915c9f85fa606e6fa3f0d94b941020b664f3dbb74aeeb3000dd4d9a9ec3.svg"
-                  className="mr-3 h-6 sm:h-16"
+                  className="mr-3 h-10 sm:h-12 md:h-16 lg:h-16"
                   alt="Logo"
                 />
               </a>
@@ -41,7 +41,9 @@ const Navbar = () => {
                     </div>
                     <div className="flex">
                       <p className="info flex flex-col mb-0 text-center md:text-left mt-2">
-                        <span className="text-[12px] text-gray-500">Have any Question?</span>
+                        <span className="text-[12px] text-gray-500">
+                          Have any Question?
+                        </span>
                         <a
                           className="number text-black font-bold text-[15px] mt-2 me-4"
                           href="tel:+918818881807"
@@ -130,14 +132,14 @@ const Navbar = () => {
                       )}
                     </button>
                     {isServicesOpen && (
-                      <div className="absolute left-0 mt-2 bg-gray-50 divide-y divide-gray-100 border-t-4 rounded-lg shadow w-60 py-2 px-4 " >
+                      <div className="absolute left-0 mt-2 bg-gray-50 divide-y divide-gray-100 border-t-4 rounded-lg shadow w-60 py-2 px-4 ">
                         <ul className="text-sm text-gray-700">
                           <li>
                             <a
                               href="#"
                               className="block px-4 py-2 hover:bg-gray-100"
                             >
-                             Application Development
+                              Application Development
                             </a>
                           </li>
                           <li>
