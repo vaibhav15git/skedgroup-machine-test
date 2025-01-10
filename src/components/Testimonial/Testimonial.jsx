@@ -35,7 +35,7 @@ const Testimonial = () => {
   return (
    <>
    <ScreenWrapper>
-   <div className="bg-blue-50 flex items-center justify-center px-4 pb-24 pt-12">
+   <div className="bg-blue-50 flex items-center justify-center px-4 pb-24 pt-12 my-8" >
       <div className="max-w-7xl mx-auto w-full">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-sked-blue mb-4">

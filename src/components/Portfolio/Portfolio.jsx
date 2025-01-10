@@ -72,8 +72,8 @@ const Portfolio = () => {
       <ScreenWrapper>
         <div>
           <SectionTitle
-            leftTitle="Industries"
-            rightTitle="Skedgroup Serves"
+            leftTitle="View Recent"
+            rightTitle="SWorks"
             aos="fade-right"
             aosDuration="700"
           />
@@ -82,7 +82,7 @@ const Portfolio = () => {
             data-aos="fade-right"
             data-aos-duration="700"
           >
-            Skedgroup serves various industries with skilled experts
+            Check out the most recent additions to our portfolio
           </p>
         </div>
         <div className="container mx-auto mt-10">
